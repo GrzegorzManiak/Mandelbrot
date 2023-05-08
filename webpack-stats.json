@@ -1,14 +1,24 @@
 {
-  "status": "done",
+  "status": "error",
   "assets": {
+    "a052b9dfc0ce4e1fd72b.wasm": {
+      "name": "a052b9dfc0ce4e1fd72b.wasm",
+      "path": "/home/grzegorzm/github/Mandelbrot/www/webpack_bundles/a052b9dfc0ce4e1fd72b.wasm"
+    },
     "mirror-tell-section.js": {
       "name": "mirror-tell-section.js",
-      "path": "/home/grzegorzm/github/GrzegorzManiak/www/webpack_bundles/mirror-tell-section.js"
+      "path": "/home/grzegorzm/github/Mandelbrot/www/webpack_bundles/mirror-tell-section.js"
+    },
+    "mirror-tell-section.js.LICENSE.txt": {
+      "name": "mirror-tell-section.js.LICENSE.txt",
+      "path": "/home/grzegorzm/github/Mandelbrot/www/webpack_bundles/mirror-tell-section.js.LICENSE.txt"
     }
   },
   "chunks": {
     "core": [
       "mirror-tell-section.js"
     ]
-  }
+  },
+  "error": "ModuleNotFoundError",
+  "message": "Module not found: Error: Can't resolve './src/index.ts' in '/home/grzegorzm/github/Mandelbrot'"
 }
